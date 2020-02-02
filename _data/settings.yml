@@ -1,17 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: eSaathi - Assistive UI
+title: MeraData
 logo: logo.png
-email: esaathiatfc@email.com
+email: meradata@email.com
 phone: +91 7047031155
 address: IIT Kharagpur
 
 menu:
 
-- {name: Features, link: '/about/'}
-- {name: Blog, link: '/blog/'}
-- {name: Contact, link: '/contact/'}
+# - {name: Features, link: '/about/'}
+# - {name: Blog, link: '/blog/'}
+# - {name: Contact, link: '/contact/'}
 
 
 #-------------------------------
@@ -35,7 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! We're <br> eSaathi <br> An Assistive UI <br> Platform
+  hero-title: Hi! We're <br> MeraData <br> A holistic virtual self.
 social:
 - {icon: "ti-facebook", link: "#"}
 - {icon: "ti-instagram", link: "#"}
@@ -156,8 +156,8 @@ how to use that device.',
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.jpg"
     url: "https://www.swiggy.com/"
-    action: "Swiggy it!"
-    text: "Order your favourite food"
+    action: "Order food via Swiggy!"
+    text: "Hungry after your run?"
     # service-image: "swiggy.jpg"
     
   - image : "assets/images/portfolio/item-2.jpg"
@@ -165,17 +165,7 @@ portfolio-home-items:
     action: "Book Uber!"
     text: "Get a cab from CCU to JW Marriott"
     # service-image: "uber.jpg"
-    
-  - image : "assets/images/portfolio/item-3.jpg"
-    url: "https://in.bookmyshow.com/"
-    action: "BookMyShow"
-    text: "Grab your favourite movie during your stay!"
-    # service-image: "bookmyshow.jpg"
-    
-  - image : "assets/images/portfolio/item-4.jpg"
-    url: "https://www.youtube.com/watch?v=TcMBFSGVi1c"
-    action: "Watch on YouTube"
-    text: "Watch the trailer for your upcoming movie"
+
     # service-image:
     
   # - image : "assets/images/portfolio/item-5.png"
@@ -202,7 +192,7 @@ portfolio-label:
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
-    text: "Order food"
+    text: "Hungry after your run? Order some food!"
     portfolio-type:
      - type: "design"
      - type: "illustration"
@@ -321,7 +311,6 @@ contact-email: steve.fruits@email.com
 
 
 posts:
-  - title: "Stay Hydrated!"
-    desc: "Hope you enjoyed your food! Be sure to drink a glass of water"
+  - text: "Your FitBit says you aren't hydrated enough. Drink some water!"
     image: "assets/images/blog/water.jpg"
     

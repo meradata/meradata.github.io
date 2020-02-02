@@ -22,6 +22,18 @@
         </div>
       </div>
       {% endfor %}
+      {% for post in site.data.settings.posts %}
+      <div class="col-lg-4 col-8 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="{{ site.baseurl }}/{{ post.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <h4 style="color: white">{{ post.text }}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
